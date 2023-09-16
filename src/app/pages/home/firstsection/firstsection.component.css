@@ -1,0 +1,16 @@
+.first-section{
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../../../assets/banner-vans.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0 -300px;
+}
+.first-section::before{
+
+}
+.content-section{
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 100%;
+}
