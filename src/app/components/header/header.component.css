@@ -40,11 +40,11 @@ header{
 }
 .div-center-header{
   display: flex;
-  gap: 30px;
+  gap: 45px;
 }
 .div-center-header ul{
   display: flex;
-  gap: 30px;
+  gap: 45px;
 }
 .div-center-header ul li{
   display: flex;

@@ -4,18 +4,21 @@ import { MatIconModule } from '@angular/material/icon';
 
 
 //components
-import {HeaderComponent} from "./header/header.component"
+import {HeaderComponent} from "./header/header.component";
+import { ButtonComponent } from './button/button.component'
 
 @NgModule({
   declarations: [
-    HeaderComponent
+    HeaderComponent,
+    ButtonComponent
   ],
   imports: [
     CommonModule,
     MatIconModule
   ],
   exports:[
-    HeaderComponent
+    HeaderComponent,
+    ButtonComponent
   ]
 })
 export class ComponentsModule { }

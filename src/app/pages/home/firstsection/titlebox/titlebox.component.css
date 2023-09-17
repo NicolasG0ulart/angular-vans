@@ -1,0 +1,19 @@
+.title-box{
+  padding-inline: 50px;
+  height: calc(100% - 150px);
+
+  display: flex;
+  align-items: center;
+}
+.title-box div{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.title-box h1{
+  font-size: 4rem;
+  font-weight: 600;
+}
+.title-box p{
+  line-height: 27px;
+}

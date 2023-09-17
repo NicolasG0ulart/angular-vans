@@ -4,11 +4,13 @@ import { HomeComponent } from './home.component';
 import { FirstsectionComponent } from './firstsection/firstsection.component';
 
 //components
-import {ComponentsModule} from "../../components/components.module"
+import {ComponentsModule} from "../../components/components.module";
+import { TitleboxComponent } from './firstsection/titlebox/titlebox.component'
 @NgModule({
   declarations: [
     HomeComponent,
-    FirstsectionComponent
+    FirstsectionComponent,
+    TitleboxComponent
   ],
   imports: [
     CommonModule,

@@ -1,0 +1,23 @@
+button{
+  border: none;
+  border-radius: 3px;
+  height: 60px;
+  padding-inline: 30px;
+  background-color: #FF3333;
+  color: #fff;
+  transition: .4s;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+button:hover{
+  cursor: pointer;
+  background-color: #ec2a2a;
+}
+mat-icon{
+  transition: .4s;
+}
+button:hover mat-icon{
+  transform: translateX(10px);
+}
