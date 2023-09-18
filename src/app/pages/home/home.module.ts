@@ -5,12 +5,16 @@ import { FirstsectionComponent } from './firstsection/firstsection.component';
 
 //components
 import {ComponentsModule} from "../../components/components.module";
-import { TitleboxComponent } from './firstsection/titlebox/titlebox.component'
+import { TitleboxComponent } from './firstsection/titlebox/titlebox.component';
+import { MainComponent } from './main/main.component';
+import { FeatureComponent } from './main/feature/feature.component'
 @NgModule({
   declarations: [
     HomeComponent,
     FirstsectionComponent,
-    TitleboxComponent
+    TitleboxComponent,
+    MainComponent,
+    FeatureComponent
   ],
   imports: [
     CommonModule,

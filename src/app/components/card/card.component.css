@@ -1,0 +1,46 @@
+.card{
+  position: relative;
+  width: 280px;
+  height: 340px;
+
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  transition: .4s;
+}
+mat-icon{
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  opacity: 0;
+  transition: .4s;
+}
+img{
+  width: 80%;
+}
+hr{
+  width: 35px;
+  border-top: 3px solid #333333;
+}
+h4{
+  text-align: center;
+  color: #333333;
+  width: 130px;
+  font-weight: 700;
+}
+p{
+  color: #FF3333;
+  font-weight: 600;
+}
+.card:hover{
+  cursor: pointer;
+  box-shadow: 2px 3px 23px -7px rgba(0,0,0,0.4);
+  background-color: #fff;
+}
+.card:hover mat-icon{
+  opacity: 1;
+}
+
